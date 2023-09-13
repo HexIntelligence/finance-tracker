@@ -8,6 +8,12 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+//= require_tree .
+// Add following lines.
+//= require jquery 
+//= jquery 
+//= jquery_ujs
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
